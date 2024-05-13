@@ -1,0 +1,6 @@
+@page
+@model MangaStore.Pages.Auth.Logout
+@{
+    HttpContext.Session.Clear();
+    Response.Redirect("/");
+}

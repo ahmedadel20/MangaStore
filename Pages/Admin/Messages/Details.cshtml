@@ -1,0 +1,55 @@
+@page
+@model MangaStore.Pages.Admin.Messages.Details
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2 class ="my-3">@ViewData["ViewDataName"]</h2>
+
+<div class = "row -mb-2">
+    <label class= "col-sm-3 col-form-label">ID</label>
+    <div class= "col-sm-7">
+        <input type="text" readonly class="form-control-plaintext" value="@Model.messageInfo.id">
+    </div>
+</div>
+
+<div class = "row -mb-2">
+    <label class= "col-sm-3 col-form-label">Username</label>
+    <div class= "col-sm-7">
+        <input type="text" readonly class="form-control-plaintext" value="@Model.messageInfo.firstName @Model.messageInfo.lastName">
+    </div>
+</div>
+
+<div class = "row -mb-2">
+    <label class= "col-sm-3 col-form-label">Email</label>
+    <div class= "col-sm-7">
+        <input type="email" readonly class="form-control-plaintext" value="@Model.messageInfo.email">
+    </div>
+</div>
+
+<div class = "row -mb-2">
+    <label class= "col-sm-3 col-form-label">Phone</label>
+    <div class= "col-sm-7">
+        <input type="email" readonly class="form-control-plaintext" value="@Model.messageInfo.phone">
+    </div>
+</div>
+
+<div class = "row -mb-2">
+    <label class= "col-sm-3 col-form-label">Message</label>
+    <div class= "col-sm-7">
+        <textarea class="form-control">
+            @Model.messageInfo.message
+        </textarea>
+    </div>
+</div>
+
+<div class = "row -mb-2">
+    <label class= "col-sm-3 col-form-label">Created ON</label>
+    <div class= "col-sm-7">
+        <input type="email" readonly class="form-control-plaintext" value="@Model.messageInfo.createdAt">
+    </div>
+</div>
+
+<div class ="offset-sm-3 col-sm-7">
+    <a class ="btn btn-primary" href="./Index" role="button">OK</a>
+</div>

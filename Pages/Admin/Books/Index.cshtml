@@ -1,0 +1,121 @@
+@page
+@model MangaStore.Pages.Admin.Books.Index
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h2 class ="my-3">@ViewData["Title"]</h2>
+
+<div class="row mb-3">
+    <div class="col">
+        <a class="btn btn-primary" href="/Admin/Books/Create">New Book</a>
+    </div>
+    <div class="col">
+         <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" name="search" value="@Model.search" placeholder="Search by Title or Author">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+</div>
+
+<script>
+    function sortTable(column) {
+        let order = "desc";
+        let currentColumn = "@Model.column";
+        let currentOrder = "@Model.order";
+
+        if(column == currentColumn)
+        {
+            if(currentOrder == "asc")
+            {
+                order = "desc";
+            }
+            else
+            {
+                order = "asc";
+            }
+        }
+        window.location.href = '?search=@Model.search&column=' + column + '&order=' + order;
+    }
+</script>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th style="cursor: pointer;" onclick="sortTable('ID')" class="text-center">
+                ID
+            </th>
+            <th style="cursor: pointer;" onclick="sortTable('Title')"class="text-center">
+                Title
+            </th>
+            <th style="cursor: pointer;" onclick="sortTable('Authors')"class="text-center">
+                Author
+            </th>
+            <th style="cursor: pointer;" onclick="sortTable('Pages')"class="text-center">
+                Pages
+            </th>
+            <th style="cursor: pointer;" onclick="sortTable('Price')"class="text-center">
+                Price
+            </th>
+            <th style="cursor: pointer;" onclick="sortTable('Category')"class="text-center">
+                Category
+            </th>
+            <th class="text-center">
+                Cover
+            </th>
+            <th style="cursor: pointer;" onclick="sortTable('Created_on')"class="text-center">
+                Created On
+            </th>
+            <th class="text-center">
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Books)
+        {
+            <tr>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Authors)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Pages)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Price) $
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td class="text-center">
+                    <img src="/images/books/@item.Image_filename" width="100">
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Created_on)
+                </td>
+                <td style="white-space:nowrap" class="text-center">
+                    <a class="btn btn-primary btn-small" href="/Admin/Books/Edit?id=@item.ID">Edit</a>
+                    <a class="btn btn-danger btn-small" href="/Admin/Books/Delete?id=@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<nav>
+  <ul class="pagination">
+    @for(int i = 1; i <= Model.totalPages; i++)
+    {
+        <li class="page-item"><a class="page-link" href="?page=@(i)&search=@(Model.search)&column=@Model.column&order=@Model.order">@i</a></li>
+    }
+  </ul>
+</nav>

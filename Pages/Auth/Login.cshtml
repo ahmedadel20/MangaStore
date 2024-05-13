@@ -1,0 +1,61 @@
+@page
+@model MangaStore.Pages.Auth.Login
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="card mx-auto" style="width: 400px;">
+    <div class="card-body">
+        <h2 class="text-center mb-5">
+            Welcome, Please Login
+        </h2>
+
+        @if(Model.errorMessage.Length > 0)
+        {
+            <div class="alert alert-warning alert-dismissable fade show" role="alert">
+                <strong>
+                    @Model.errorMessage
+                </strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            </div>
+        }
+        else if (Model.successMessage.Length > 0)
+        {
+            <div class="alert alert-warning alert-dismissable fade show" role="alert">
+                <strong>
+                    @Model.successMessage
+                </strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            </div>
+        }
+
+        <form method="POST">
+
+            <div class="mb-3">
+                <label asp-for="email" class="form-label">Email</label>
+                <input asp-for="email" class="form-control">
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+
+            <div class="fmb-3">
+                <label asp-for="password" class="form-label">Password</label>
+                <input asp-for="password" class="form-control" type="password">
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            <br/>
+
+            <div class="row mb-3">
+                <div class = "col d-grid">
+                    <button type="submit" class="btn btn-primary d-grid">Login</button>
+                </div>
+        
+                <div class = "col d-grid">
+                    <a type="cancel" class="btn btn-outline-primary" href="/">Cancel</a>
+                </div>
+            </div>
+
+            <a class="btn btn-link" href="/Auth/ForgotPassword">Reset Password</a>
+
+        </form>
+    </div>
+</div>

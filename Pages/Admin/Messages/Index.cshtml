@@ -1,0 +1,105 @@
+@page
+@model MangaStore.Pages.Admin.Messages.Index
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br>
+<h2>Received Messages</h2>
+
+<div>
+    <table class= "table">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Username
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Phone
+                </th>
+                <th>
+                    Subject
+                </th>
+                <th>
+                    Created On
+                </th>
+                <th>
+                    Action
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.messageList)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.firstName);
+                        @Html.DisplayFor(modelItem => item.lastName);
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.phone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.subject)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.createdAt)
+                    </td>
+                    <td>
+                        <a class="btn btn-primary btn-small" href="/Admin/Messages/Details?id=@item.id">Details</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger btn-small" href="/Admin/Messages/Delete?id=@item.id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    @if(Model.totalPages < 10){
+        <nav>
+            <ul class="pagination">
+                @for(int i = 1; i <= Model.totalPages; i++)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="?page=@i">@i</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+    else
+    {
+        <form>
+            <label>Page</label>
+            <select class="form-select" asp-for="page" onchange="this.form.submit()">
+                @for(int i = 0; i < Model.totalPages; i++)
+                {
+                    @if(i == Model.page)
+                    {
+                        <option value="@(i + 1)" selected>@(i + 1)</option>
+                    }
+                    else
+                    {
+                        <option value="@(i + 1)">@(i + 1)</option>
+                    }
+                }
+            </select>
+        </form>
+    }
+    
+</div>

@@ -1,0 +1,106 @@
+@page
+@model MangaStore.Pages.Auth.Register
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class ="row">
+    <div class = "col-lg-8 mx-auto">
+        <div class = "card">
+            <div class="card-body">
+                <h2 class="text-center mb-5">Create a new Account</h2>
+
+                @if(Model.errorMessage.Length > 0)
+                {
+                    <div class="alert alert-warning alert-dismissable fade show" role="alert">
+                        <strong>
+                            @Model.errorMessage
+                        </strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    </div>
+                }
+                else if (Model.successMessage.Length > 0)
+                {
+                    <div class="alert alert-warning alert-dismissable fade show" role="alert">
+                        <strong>
+                            @Model.successMessage
+                        </strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    </div>
+                }
+
+                <form method="post">
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">First Name</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="firstName">
+                            <span asp-validation-for="firstName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Last Name</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="lastName">
+                            <span asp-validation-for="lastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Email</label>
+                        <div class="col-sm-8">
+                            <input type="email" class="form-control" asp-for="email">
+                            <span asp-validation-for="email" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Phone</label>
+                        <div class="col-sm-8">
+                            <input type="tel" class="form-control" asp-for="phone">
+                            <span asp-validation-for="phone" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Address</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="address">
+                            <span asp-validation-for="address" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Password</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" type="password" asp-for="password">
+                            <span asp-validation-for="password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Confirm Password</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" type="password" asp-for="confirmPassword">
+                            <span asp-validation-for="confirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class = "offset-sm-3 col-sm-3 d-grid">
+                            <button type="submit" class="btn btn-primary d-grid">Register</button>
+                        </div>
+                
+                        <div class = "col-sm-3 d-grid">
+                            <button type="cancel" class="btn btn-primary d-grid" href="/">Cancel</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

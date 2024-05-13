@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MangaStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MangaStore.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\20240124155224862.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\20240124155224862.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\20240124155354588.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\20240124155354588.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\20240124155454900.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\20240124155454900.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Attack on Titan 30.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Attack on Titan 30.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 30.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 30.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 31.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 31.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 32.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 32.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 33.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 33.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 34.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 34.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 35.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 35.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 36.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 36.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 37.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 37.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 38.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 38.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 39.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 39.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 40.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 40.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Berserk 41.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Berserk 41.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Blame! 1.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Blame! 1.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Blame! 2.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Blame! 2.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Gantz 16.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Gantz 16.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Gantz 17.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Gantz 17.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Gantz 30.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Gantz 30.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Gantz 34.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Gantz 34.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Gantz 36.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Gantz 36.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Gantz 37.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Gantz 37.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Homunculus (Omnibus) 1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Homunculus (Omnibus) 1-2.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Homunculus (Omnibus) 3-4.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Homunculus (Omnibus) 3-4.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Homunculus (Omnibus) 5-6.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Homunculus (Omnibus) 5-6.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Homunculus (Omnibus) 7-8.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Homunculus (Omnibus) 7-8.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\images\\books\\Homunculus (Omnibus) 9-10.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\Homunculus (Omnibus) 9-10.jpg"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "c:\\Users\\NyteStar\\Documents\\Projects\\VS Code\\MangaStore\\MangaStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MangaStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MangaStore.props",
+      "PackagePath": "build\\MangaStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MangaStore.props",
+      "PackagePath": "buildMultiTargeting\\MangaStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MangaStore.props",
+      "PackagePath": "buildTransitive\\MangaStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

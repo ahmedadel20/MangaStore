@@ -1,0 +1,11 @@
+CREATE TABLE users(
+    id INT NOT NULL PRIMARY KEY IDENTITY,
+    firstname VARCHAR(100) NOT NULL,
+    lastname VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    phone VARCHAR(20) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    role VARCHAR(255) NOT NULL CHECK (role IN('admin', 'client')),
+    created_on DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
